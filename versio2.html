@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaverilista</title>
+    <style>
+        #Kaverilista2 {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+        button {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav">
+        <a href="index.html">Etusivulle</a>
+        <a href="versio1.html">Versio 1</a>
+    </div>
+    
+    <h1>Kaverilista</h1>
+
+    <h2>Versio 2</h2>
+    <input type="text" id="nameInput" placeholder="Anna nimi">
+    <button onclick="addFriendV2()">Lisää kaveri</button>
+    <button onclick="sortList()">Järjestä aakkosjärjestykseen</button>
+    <ul id="Kaverilista2"></ul>
+
+    <script src="code.js"></script>
+</body>
+</html>
